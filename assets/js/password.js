@@ -4,8 +4,8 @@ var start = document.getElementById("generate").addEventListener("click", functi
 
     // first prompt is how many characters you want, store this value as password length
     var passwordLength = prompt("how long do you want the password?")
-    if (passwordLength > 128 || passwordLength < 1) {
-        window.alert("you can't use this value try something between 1 and 128")
+    if (passwordLength > 128 || passwordLength < 8) {
+        window.alert("you can't use this value try something between 8 and 128")
         start()
     }
     console.log(passwordLength);

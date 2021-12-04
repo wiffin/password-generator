@@ -1,3 +1,35 @@
-div {
-    border: 600px 400px blue;
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    border: blanchedalmond solid 5px;
+    background-color: cornsilk;
+}
+
+h1 {
+    color: steelblue;
+}
+
+.password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid blanchedalmond 3px;
+    padding: 50px 20px;
+    margin: 5px 5px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: skyblue;
+    border: steelblue solid 2px;
+    padding: 0 50px;
 }
